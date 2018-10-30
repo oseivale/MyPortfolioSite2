@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Cabin Sketch', cursive;
   font-weight: 400;
@@ -39,9 +43,9 @@ body {
   padding-top: 250px;
   display: block;
   color: #fff;
-  font-size: 60px;
+  font-size: 85px;
   font-family: 'Dancing Script', cursive;
-
+  font-weight: 100;
 
 }
 
@@ -74,8 +78,7 @@ body {
 }
 .my-journey{
   height: 50vh;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0%, 100% 35vh, 0 100%);
+
 }
 
 .skills{
@@ -134,4 +137,16 @@ a:hover{
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
 
+}
+
+.git-hub a{
+  color: #975E97;
+  text-decoration: none;
+}
+
+.skills-summary{
+  
+  font-size: 1.5em;
+  text-align: right;
+  padding-right: 100px;
 }
