@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin Sketch', cursive;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+.text-box{
+  height: 75vh;
+  background-image: linear-gradient(to right bottom, rgba(119, 121, 228, 0.6), rgba(242, 182, 79, 0.8)), url('../images/blur-book-stack-books-590493.jpg');
+  background-size: cover;
+
+}
+
+.my-bio{
+  width: 600px;
+  text-align: left;
+  padding-top: 40px;
+  margin-left: 1000px;
+  font-size: 1.5em;
+}
+
+.header{
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 55vh, 0 100%);
+}
+
+.main-header{
+  padding-left: 100px;
+  padding-top: 250px;
+  display: block;
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+
+
+}
+
+.sub-header{
+  padding-left: 175px;
+  color: #fff;
+  font-size: 75px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-bar{
+  text-align: right;
+  padding: 20px 45px;
+}
+
+.nav-link{
+  padding: 15px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.my-work {
+  height: 50vh;
+  background-color: #D2D6DC;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 40%, 100% 55vh, 0 100%);
+}
+.my-journey{
+  height: 50vh;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 35vh, 0 100%);
+}
+
+.skills{
+  text-align: right;
+  font-family: 'Amatic SC', cursive;   
+  letter-spacing: 2px;
+  font-size: 45px;
+  padding: 45px;
+}
+
+
+
+.my-projects{
+  text-align: left;
+  padding: 45px;
+  font-size: 45px;
+  font-family: 'Amatic SC', cursive; 
+  letter-spacing: 2px;
+}
+
+.footer{
+  height: 40vh;
+  background-color: #9F9BA3;
+}
+
+.contact{
+  letter-spacing: 2px;
+  font-family: 'Amatic SC', cursive;  
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 2em;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.contact-bar{
+  transform: translateY(-18px);
+  padding-left: 790px;
+  color: #fff;
+  padding-top: 20px;
+
+}
+
+.contact-link{
+  padding: 20px;
+  color: white;
+}
+
+.contact-me{
+  transform: translateY(-24px);
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+
+}
